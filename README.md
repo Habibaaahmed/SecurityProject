@@ -32,7 +32,7 @@ Ensure that you have the Java Development Kit (JDK) installed on your system. Yo
     Run the compiled Java program using the following command:
 
     ```bash
-    java digital.crypto.DigitalCrypto
+    java -cp . digital.crypto.DigitalCrypto
     ```
 
     Ensure that the necessary files, such as `myCertificate.cert`, are present in the `digital-crypto` directory.
